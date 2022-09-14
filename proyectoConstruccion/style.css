@@ -217,13 +217,13 @@ font-face {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background: url(perfil.jpg);
+    background: url(../proyectoConstruccion/imagenes/perfil.jpg);
 }
 
 /*estilo novedades*/
 .container__novedades {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     justify-items: center;
     gap: 10px;
@@ -341,12 +341,12 @@ h6 {
 /*cuerpo*/
 
 .container-imagen-fondo {
-    height: 500px;
-    padding: 50px;
+    height: 15%;
+    padding: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(../imagenes/frente\ 1.jpg)
+    background-image: url(../proyectoConstruccion/imagenes/frente\ 1.jpg)
 
 }
 
